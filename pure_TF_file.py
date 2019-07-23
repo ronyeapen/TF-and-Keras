@@ -9,7 +9,7 @@ import pandas as pd
 
 #loading processed data
 start_time = time.clock()
-train_files=np.load('Nx&y_train_lessthan100m.npz')
+train_files=np.load('Nx&y_train_onlyAUS.npz')
 train_x=train_files['x']
 train_y=train_files['y']
 dim=train_x.shape[1]
