@@ -114,7 +114,7 @@ def compute_cost(Z6,Y):
 
 
 #start neural network not use minibatch_size=32, X_test, Y_test
-def model(train_x, train_y,learning_rate=0.0001, num_epochs=10000, print_cost=True):
+def model(train_x, train_y,learning_rate=0.0001, num_epochs=1000, print_cost=True):
     
     (n_x,m)=train_x.shape
     n_y=train_y.shape[0]
